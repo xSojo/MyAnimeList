@@ -1,3 +1,5 @@
+@\import "https://xsojo.github.io/MyAnimeList/Colors/Colors.css";
+
 /* LAYOUT AND FONTS */
 @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
 @\import "https://fonts.googleapis.com/css?family=Chivo";
@@ -10,7 +12,11 @@
 
 /* AVATAR ICON */
 :root {
-    --avatar: url(https://cdn.myanimelist.net/images/userimages/2637631.jpg);
+    --name: none;
+    --avatar: none;
+    --banner: url(https://i.imgur.com/VoPJz2S.jpg);
+    --character: url(https://i.imgur.com/6IPyngH.png);
+    --background: none;
 }
 
 .list-menu-float .icon-menu,
@@ -400,38 +406,7 @@ div[class^="progress-"] {
 
 /* COLORS */
 
-:root {
-    /* Generic Colours */
-    --pbg: #000;
-    --bg: #202327;
-    --bg-dark: #444;
-    --text: #d9d9d9;
-    --text-h: #ff8f00;
-    --text-dim: #ff8f00;
-    --text-dim-h: #999;
-    --text-dark: #6E767D;
-    --icon: #959595;
-    --accent: #ff8f00;
-    /* Button Colours */
-    --btn-bg: #15181C;
-    --btn-bg-h: #000;
-    --btn-head-bg-h: #ff8f00;
-    --btn-text-h: #d9d9d9;
-    --btn-text-b: #212529;
-    /* Header Colours */
-    --text-head: #ff8f00;
-    --text-head-h: #FFF;
-    /* Status Colours */
-    --watching: #28A745;
-    --completed: #1B95E0;
-    --onhold: #FFC107;
-    --dropped: #DC3545;
-    --plantowatch: #d9d9d9;
-    /* Single-Use Colours */
-    --cover-bg: #090909;
-    --edit-btn: #323232;
-    --checkmark: #ff8f00;
-}
+
 
 .cover-block:before {
     background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0))

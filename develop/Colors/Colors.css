@@ -1,0 +1,44 @@
+:root {
+    --name: none;
+    --avatar: none;
+    --banner: url(https://i.imgur.com/VoPJz2S.jpg);
+    --character: url(https://i.imgur.com/6IPyngH.png);
+    --background: none;
+    
+    /* Generic Colours */
+    --pbg: #000;
+    --bg: #202327;
+    --bg-dark: #444;
+    --text: #d9d9d9;
+    --text-h: #ff8f00;
+    --text-dim: #ff8f00;
+    --text-dim-h: #999;
+    --text-dark: #6E767D;
+    --shadow: rgba(0, 0, 0, 0.2);
+    --icon: #959595;
+    --accent: #ff8f00;
+    
+    /* Button Colours */
+    --btn-bg: #15181C;
+    --btn-bg-h: #000;
+    --btn-head-bg-h: #ff8f00;
+    --btn-text-h: #d9d9d9;
+    --btn-text-b: #212529;
+    
+    /* Header Colours */
+    --text-head: #ff8f00;
+    --text-head-h: #FFF;
+    
+    
+    /* Status Colours */
+    --watching: #28A745;
+    --completed: #1B95E0;
+    --onhold: #FFC107;
+    --dropped: #DC3545;
+    --plantowatch: #d9d9d9;
+    
+    /* Single-Use Colours */
+    --cover-bg: #090909;
+    --edit-btn: #323232;
+    --checkmark: #ff8f00;
+}
