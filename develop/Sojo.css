@@ -66,17 +66,6 @@
     left: 28px !important;
 }
 
-/* BANNER */
-:root {
-    --banner: url(https://coverfiles.alphacoders.com/205/20514.jpg);
-    --character: none;
-}
-
-/* NAME */
-:root {
-    --name: "\a   Sojo";
-}
-
 body {
     padding-bottom: 0px;
 }
