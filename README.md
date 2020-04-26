@@ -5,4 +5,4 @@ Entrar en [https://myanimelist.net/ownlist/style](https://myanimelist.net/ownlis
 Seleccionar una lista que queremos editar y hacemos clic sobre el estilo que queremos sobreescribir.
 
 Añadimos la siguiente línea donde : 
-	```css @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";```
+	```@\import "https://xsojo.github.io/MyAnimeList/Sojo.css";```
