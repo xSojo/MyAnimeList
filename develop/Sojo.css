@@ -171,9 +171,7 @@ body {
 .rewatching::before,
 .content-status::after,
 .rereading::after,
-.rewatching::after,
-.data.progress::before,
-.data.season::before {
+.rewatching::after {
     content: "" !important;
 }
 
@@ -185,18 +183,7 @@ body {
     padding: .25rem !important;
 }
 
-/* Progress */
-.data.chapter,
-.data.progress,
-.data.volume {
-    margin-right: -92px;
-    margin-top: 16px !important;
-}
 
-/* Season */
-.data.season {
-    margin-bottom: 16px !important;
-}
 
 /* STUDIO */
 .list-table .list-table-data .licensor span a:hover,

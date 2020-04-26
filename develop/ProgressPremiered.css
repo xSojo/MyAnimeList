@@ -1,0 +1,17 @@
+/* Progress */
+.data.chapter,
+.data.progress,
+.data.volume {
+    margin-right: -92px;
+    margin-top: 16px !important;
+}
+
+/* Season */
+.data.season {
+    margin-bottom: 16px !important;
+}
+
+.data.progress::before,
+.data.season::before {
+    content: "" !important;
+}
