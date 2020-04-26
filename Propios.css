@@ -1,0 +1,5 @@
+.data.tags span a[href*="\=Finished%20Airing"] {
+    color: #DC3545 !important;
+    border: 1px solid #FFF;
+
+}

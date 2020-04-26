@@ -1,0 +1,58 @@
+/* Score */
+div[class^="progress-"] {
+    margin: 0px 10px;
+    border-radius: 0.25em;
+    background: var(--btn-bg) !important;
+    color: var(--btn-text-h) !important;
+}
+
+.data.score a {
+    color: var(--btn-text-h) !important;
+    background: var(--btn-bg) !important;
+    border-radius: 0.25em !important;
+}
+
+.score-label {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: var(--btn-bg);
+    margin: 0 0 0 auto;
+    line-height: 26px;
+}
+
+.score-na {
+    font-size: 0em;
+    background: var(--bg) !important;
+}
+
+.score-na:hover {
+    background: var(--btn-bg) !important;
+    border-radius: 0.25em !important;
+    font-size: 1.1em;
+}
+
+.score-1,
+.score-2,
+.score-3,
+.score-4 {
+    color: var(--btn-text-h) !important;
+    border-radius: 0.25em !important;
+    background: var(--dropped) !important;
+}
+
+.score-5,
+.score-6,
+.score-7 {
+    color: var(--btn-text-b) !important;
+    border-radius: 0.25em !important;
+    background: var(--onhold) !important;
+}
+
+.score-8,
+.score-9,
+.score-10 {
+    color: var(--btn-text-h) !important;
+    border-radius: 0.25em !important;
+    background: var(--watching) !important;
+}
