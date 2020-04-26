@@ -1,0 +1,14 @@
+/*Bueno*/
+.data.studio span a[href$="/56"] {
+    border: 1px solid #28A745;
+}
+
+/*Medio*/
+.data.studio span a[href$="/314"] {
+    border: 1px solid #FFC107;
+}
+
+/*Malo*/
+.data.studio span a[href$="/163"] {
+    border: 1px solid #DC3545;
+}

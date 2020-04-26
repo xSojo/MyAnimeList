@@ -264,24 +264,6 @@ div[class^="progress-"] {
 }
 
 /* STUDIO */
-/*Bueno*/
-.data.studio span a[href$="/803"],
-.data.studio span a[href$="/56"] {
-    border: 1px solid #28A745;
-}
-
-/*Medio*/
-.data.studio span a[href$="/1"],
-.data.studio span a[href$="/91"],
-.data.studio span a[href$="/314"] {
-    border: 1px solid #FFC107;
-}
-
-/*Malo*/
-.data.studio span a[href$="/163"] {
-    border: 1px solid #DC3545;
-}
-
 .list-table .list-table-data .licensor span a:hover,
 .list-table .list-table-data .studio span a:hover,
 .list-table .list-table-data .tags span a:hover {
