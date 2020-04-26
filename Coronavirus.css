@@ -1,0 +1,47 @@
+.data.tags span a[href*="\=CORONAVIRUS"] {
+    background: #FFC107;
+    color: #000 !important;
+    animation: pulse2 5s infinite;
+}
+
+.data.tags span a[href*="\=CORONAVIRUS"]:before {
+    font-family: "FontAwesome";
+    content: "\f071";
+    margin-right: 5px;
+    animation: pulse 5s infinite;
+}
+
+.data.tags span a[href*="\=CORONAVIRUS"]:after {
+    font-family: "FontAwesome";
+    content: "\f071";
+    margin-left: 5px;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: #FFC107;
+    }
+
+    50% {
+        color: #DC3545;
+    }
+
+    100% {
+        color: #FFC107;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        border: 1px solid #DC3545;
+    }
+
+    50% {
+        border: 1px solid #FFC107;
+    }
+
+    100% {
+        border: 1px solid #DC3545;
+    }
+}
