@@ -16,3 +16,6 @@ Si queremos un nombre, un avatar, un banner o un personaje, o un fondo añadimos
     --character: url(https://i.imgur.com/6IPyngH.png);
     --background: #000000;
 }```
+
+
+Si queremos que la etiqueta de coronavirus destaque añadimos la siguiente línea: ```@\import "https://xsojo.github.io/MyAnimeList/Coronavirus.css";```

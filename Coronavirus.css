@@ -1,3 +1,7 @@
+.data.tags {
+    width: 150px;
+}
+
 .data.tags span a[href*="\=CORONAVIRUS"] {
     background: #FFC107;
     color: #000 !important;

@@ -236,74 +236,18 @@ div[class^="progress-"] {
     background: var(--watching) !important;
 }
 
-/* Tags */
-.data.tags span a,
-.data.studio span a {
-    font-weight: 700;
-    border-radius: .25rem !important;
-    padding: .25rem !important;
-}
-
-/*Blanco*/
-.data.tags span a[href*="\=Lunes"] {
-    color: #FFFFFF !important;
-    /*border: 1px solid #FFFFFF;*/
-}
-
-/* Rojo */
-.data.tags span a[href*="\=Martes"] {
-    color: #dc3545 !important;
-    /*border: 1px solid #dc3545;*/
-}
-
-/*Vede */
-.data.tags span a[href*="\=Mi%C3%A9rcoles"] {
-    color: #28a745 !important;
-    /*border: 1px solid #28a745;*/
-}
-
-/* Amarillo */
-.data.tags span a[href*="\=Jueves"] {
-    color: #ffc107 !important;
-    /*border: 1px solid #ffc107;*/
-}
-
-/*Rosa*/
-.data.tags span a[href*="\=Viernes"] {
-    color: #e83e8c !important;
-    /*border: 1px solid #e83e8c;*/
-}
-
-/*Morado */
-.data.tags span a[href*="\=S%C3%A1bado"] {
-    color: #007bff !important;
-    /*border: 1px solid #007bff;*/
-}
-
-/*Naranja*/
-.data.tags span a[href*="\=Domingo"] {
-    color: #ff8f00 !important;
-    /*border: 1px solid #ff8f00;*/
-
-}
-
 .data.tags span a[href*="\=Finished%20Airing"] {
     color: #DC3545 !important;
     border: 1px solid #FFF;
 
 }
 
-/*Fansubs*/
-.data.tags {
-    width: 150px;
-}
-
-.data.tags span a[href*="\=CRUNCHYROLL"] {
-    color: #F78C25 !important
-}
-
-.data.tags span a[href*="\=SELECTA%VISION"] {
-    color: #133361 !important
+/* Tags */
+.data.tags span a,
+.data.studio span a {
+    font-weight: 700;
+    border-radius: .25rem !important;
+    padding: .25rem !important;
 }
 
 /* Progress */

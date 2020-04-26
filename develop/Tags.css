@@ -1,0 +1,43 @@
+/* Blanco */
+.data.tags span a[href*="\=Lunes"] {
+    color: #FFFFFF !important;
+}
+
+/* Rojo */
+.data.tags span a[href*="\=Martes"] {
+    color: #dc3545 !important;
+}
+
+/* Verde */
+.data.tags span a[href*="\=Mi%C3%A9rcoles"] {
+    color: #28a745 !important;
+}
+
+/* Amarillo */
+.data.tags span a[href*="\=Jueves"] {
+    color: #ffc107 !important;
+}
+
+/* Rosa */
+.data.tags span a[href*="\=Viernes"] {
+    color: #e83e8c !important;
+}
+
+/* Morado */
+.data.tags span a[href*="\=S%C3%A1bado"] {
+    color: #007bff !important;
+}
+
+/* Naranja */
+.data.tags span a[href*="\=Domingo"] {
+    color: #ff8f00 !important;
+}
+
+/* Fansubs */
+.data.tags span a[href*="\=CRUNCHYROLL"] {
+    color: #F78C25 !important
+}
+
+.data.tags span a[href*="\=SELECTA%VISION"] {
+    color: #133361 !important
+}
