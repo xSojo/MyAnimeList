@@ -19,3 +19,5 @@ Si queremos un nombre, un avatar, un banner o un personaje, o un fondo añadimos
 
 
 Si queremos que la etiqueta de coronavirus destaque añadimos la siguiente línea: ```@\import "https://xsojo.github.io/MyAnimeList/Coronavirus.css";```
+
+Si queremos que los tags tengan colores para los días de la semana y para Crunchyroll y Selecta Visión: ```@\import "https://xsojo.github.io/MyAnimeList/develop/Tags.css";```
