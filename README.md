@@ -21,3 +21,7 @@ Si queremos un nombre, un avatar, un banner o un personaje, o un fondo añadimos
 Si queremos que la etiqueta de coronavirus destaque añadimos la siguiente línea: ```@\import "https://xsojo.github.io/MyAnimeList/Coronavirus.css";```
 
 Si queremos que los tags tengan colores para los días de la semana y para Crunchyroll y Selecta Visión: ```@\import "https://xsojo.github.io/MyAnimeList/develop/Tags.css";```
+
+Si queremos que las valoraciones estén ocultas si no están valoradas y que tengan valoraciones dependiendo de la puntuación (1-4 malo, 5-7 normal, 8-10 bueno): ```@\import "https://xsojo.github.io/MyAnimeList/develop/Score.css";```
+
+Si queremos unir las columnas de Progress y Premiered: ```@\import "https://xsojo.github.io/MyAnimeList/develop/ProgressPremiered.css";```
