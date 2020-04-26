@@ -1,5 +1,3 @@
-# MyAnimeList
-
 Entrar en [https://myanimelist.net/ownlist/style](https://myanimelist.net/ownlist/style "https://myanimelist.net/ownlist/style")
 
 Seleccionar una lista que queremos editar y hacemos clic sobre el estilo que queremos sobreescribir.
