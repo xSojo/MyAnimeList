@@ -4,5 +4,4 @@ Entrar en [https://myanimelist.net/ownlist/style](https://myanimelist.net/ownlis
 
 Seleccionar una lista que queremos editar y hacemos clic sobre el estilo que queremos sobreescribir.
 
-Añadimos la siguiente línea donde : 
-	```@\import "https://xsojo.github.io/MyAnimeList/Sojo.css";```
+Añadimos la siguiente línea donde pone Add Custom CSS: ```@\import "https://xsojo.github.io/MyAnimeList/Sojo.css";```
