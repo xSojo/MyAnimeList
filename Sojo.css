@@ -1,0 +1,482 @@
+/* LAYOUT AND FONTS */
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+@\import "https://fonts.googleapis.com/css?family=Chivo";
+@\import "https://fonts.googleapis.com/css?family=Philosopher";
+
+/* IMAGE PREVIEW */
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkbefore";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
+
+
+/* AVATAR ICON */
+:root {
+    --avatar: url(https://cdn.myanimelist.net/images/userimages/2637631.jpg);
+}
+
+.list-menu-float .icon-menu,
+.header .header-title,
+#show-stats-button,
+#advanced-options-button,
+.list-table>tbody:first-of-type:after,
+.list-table .list-table-header .header-title .link.sort {
+    border-radius: .25rem;
+    border: 1px solid var(--btn-bg);
+}
+
+.list-menu-float .icon-menu:hover,
+.icon-menu.setting .text a:hover,
+.header .header-title:hover,
+#show-stats-button:hover,
+#advanced-options-button:hover,
+.list-table>tbody:first-of-type:hover:after {
+    background: var(--btn-bg) !important;
+    color: var(--btn-text-h) !important;
+    border: 1px solid #ff8f00;
+}
+
+.list-menu-float .icon-menu:hover .text a {
+    border: 1px solid var(--btn-bg) !important;
+    border-radius: .25rem !important;
+}
+
+.list-table tbody:first-of-type:hover .list-table-header .header-title .link.sort {
+    margin: 1px;
+    left: -15px;
+}
+
+.list-menu-float .icon-menu:hover .text a:hover,
+.list-table .list-table-header .header-title .link.sort:hover {
+    background: var(--btn-bg) !important;
+    color: var(--btn-text-h) !important;
+    border: 1px solid var(--text-h) !important;
+    border-radius: .25rem !important;
+}
+
+.icon-menu.setting:hover .text .link-list-setting {
+    left: 150px !important;
+}
+
+.icon-menu.setting:hover .text .link-style-setting {
+    left: 28px !important;
+}
+
+/* BANNER */
+:root {
+    --banner: url(https://coverfiles.alphacoders.com/205/20514.jpg);
+    --character: none;
+}
+
+/* NAME */
+:root {
+    --name: "\a   Sojo";
+}
+
+body {
+    padding-bottom: 0px;
+}
+
+.status-menu .status-button {
+    color: var(--text-dark) !important;
+}
+
+.status-button.all_anime:hover {
+    color: var(--text-head) !important;
+}
+
+.status-button.watching:hover {
+    color: var(--watching) !important;
+}
+
+.status-button.completed:hover {
+    color: var(--completed) !important;
+}
+
+.status-button.onhold:hover {
+    color: var(--onhold) !important;
+}
+
+.status-button.dropped:hover {
+    color: var(--dropped) !important;
+}
+
+.status-button.plantoread:after,
+.status-button.plantowatch:hover {
+    color: var(--plantowatch) !important;
+}
+
+#search-button i {
+    color: var(--text-dark) !important;
+}
+
+#search-button i:hover {
+    color: var(--text-head) !important;
+}
+
+/* Footer */
+#footer-block {
+    height: 0px;
+    padding: 0px;
+}
+
+#copyright {
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.list-unit .loading-space {
+    margin: 14px 0 14px;
+}
+
+
+/* Row */
+.list-item {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.list-item:hover .data.image a:before {
+    top: calc(50% - 116px);
+    /* left: -86px; */
+    left: -174px;
+    height: 230px;
+    opacity: 1;
+    border: 1px solid var(--text-h);
+}
+
+/* 1 - Number */
+.data.number {
+    top: -26px;
+    left: -20px;
+    border-radius: .25rem 0 0 .25rem;
+}
+
+/* 2 - Image */
+.data.image a:after,
+.data.image img {
+    border-radius: .25rem;
+}
+
+/* STATUS BAR */
+.data.status {
+    width: 3px !important;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.content-status,
+.rereading,
+.rewatching {
+    color: #FFFFFF !IMPORTANT;
+    background: #28A745;
+    margin-right: 5px;
+    border-radius: .25rem;
+    padding: 2px 2px 4px 3px;
+}
+
+.content-status::before,
+.rereading::before,
+.rewatching::before,
+.content-status::after,
+.rereading::after,
+.rewatching::after,
+.data.progress::before,
+.data.season::before {
+    content: "" !important;
+}
+
+/* Score */
+div[class^="progress-"] {
+    margin: 0px 10px;
+    border-radius: 0.25em;
+    background: var(--btn-bg) !important;
+    color: var(--btn-text-h) !important;
+}
+
+.data.score a {
+    color: var(--btn-text-h) !important;
+    background: var(--btn-bg) !important;
+    border-radius: 0.25em !important;
+}
+
+.score-label {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: var(--btn-bg);
+    margin: 0 0 0 auto;
+    line-height: 26px;
+}
+
+.score-na {
+    font-size: 0em;
+    background: var(--bg) !important;
+}
+
+.score-na:hover {
+    background: var(--btn-bg) !important;
+    border-radius: 0.25em !important;
+    font-size: 1.1em;
+}
+
+.score-1,
+.score-2,
+.score-3,
+.score-4 {
+    color: var(--btn-text-h) !important;
+    border-radius: 0.25em !important;
+    background: var(--dropped) !important;
+}
+
+.score-5,
+.score-6,
+.score-7 {
+    color: var(--btn-text-b) !important;
+    border-radius: 0.25em !important;
+    background: var(--onhold) !important;
+}
+
+.score-8,
+.score-9,
+.score-10 {
+    color: var(--btn-text-h) !important;
+    border-radius: 0.25em !important;
+    background: var(--watching) !important;
+}
+
+/* Tags */
+.data.tags span a,
+.data.studio span a {
+    font-weight: 700;
+    border-radius: .25rem !important;
+    padding: .25rem !important;
+}
+
+/*Blanco*/
+.data.tags span a[href*="\=Lunes"] {
+    color: #FFFFFF !important;
+    /*border: 1px solid #FFFFFF;*/
+}
+
+/* Rojo */
+.data.tags span a[href*="\=Martes"] {
+    color: #dc3545 !important;
+    /*border: 1px solid #dc3545;*/
+}
+
+/*Vede */
+.data.tags span a[href*="\=Mi%C3%A9rcoles"] {
+    color: #28a745 !important;
+    /*border: 1px solid #28a745;*/
+}
+
+/* Amarillo */
+.data.tags span a[href*="\=Jueves"] {
+    color: #ffc107 !important;
+    /*border: 1px solid #ffc107;*/
+}
+
+/*Rosa*/
+.data.tags span a[href*="\=Viernes"] {
+    color: #e83e8c !important;
+    /*border: 1px solid #e83e8c;*/
+}
+
+/*Morado */
+.data.tags span a[href*="\=S%C3%A1bado"] {
+    color: #007bff !important;
+    /*border: 1px solid #007bff;*/
+}
+
+/*Naranja*/
+.data.tags span a[href*="\=Domingo"] {
+    color: #ff8f00 !important;
+    /*border: 1px solid #ff8f00;*/
+
+}
+
+.data.tags span a[href*="\=Finished%20Airing"] {
+    color: #DC3545 !important;
+    border: 1px solid #FFF;
+
+}
+
+.data.tags span a[href*="\=CORONAVIRUS"] {
+    background: #FFC107;
+    color: #000 !important;
+    animation: pulse2 5s infinite;
+}
+
+.data.tags span a[href*="\=CORONAVIRUS"]:before {
+    font-family: "FontAwesome";
+    content: "\f071";
+    margin-right: 5px;
+    animation: pulse 5s infinite;
+}
+
+.data.tags span a[href*="\=CORONAVIRUS"]:after {
+    font-family: "FontAwesome";
+    content: "\f071";
+    margin-left: 5px;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: #FFC107;
+    }
+
+    50% {
+        color: #DC3545;
+    }
+
+    100% {
+        color: #FFC107;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        border: 1px solid #DC3545;
+    }
+
+    50% {
+        border: 1px solid #FFC107;
+    }
+
+    100% {
+        border: 1px solid #DC3545;
+    }
+}
+
+/*Fansubs*/
+.data.tags {
+    width: 150px;
+}
+
+.data.tags span a[href*="\=CRUNCHYROLL"] {
+    color: #F78C25 !important
+}
+
+.data.tags span a[href*="\=SELECTA%VISION"] {
+    color: #133361 !important
+}
+
+/* Progress */
+.data.chapter,
+.data.progress,
+.data.volume {
+    margin-right: -92px;
+    margin-top: 16px !important;
+}
+
+/* Season */
+.data.season {
+    margin-bottom: 16px !important;
+}
+
+/* STUDIO */
+/*Bueno*/
+.data.studio span a[href$="/803"],
+.data.studio span a[href$="/56"] {
+    border: 1px solid #28A745;
+}
+
+/*Medio*/
+.data.studio span a[href$="/1"],
+.data.studio span a[href$="/91"],
+.data.studio span a[href$="/314"] {
+    border: 1px solid #FFC107;
+}
+
+/*Malo*/
+.data.studio span a[href$="/163"] {
+    border: 1px solid #DC3545;
+}
+
+.list-table .list-table-data .licensor span a:hover,
+.list-table .list-table-data .studio span a:hover,
+.list-table .list-table-data .tags span a:hover {
+    background: var(--btn-bg-h);
+    color: var(--btn-text-h) !important;
+}
+
+/* COLORS */
+
+:root {
+    /* Generic Colours */
+    --pbg: #000;
+    --bg: #202327;
+    --bg-dark: #444;
+    --text: #d9d9d9;
+    --text-h: #ff8f00;
+    --text-dim: #ff8f00;
+    --text-dim-h: #999;
+    --text-dark: #6E767D;
+    --icon: #959595;
+    --accent: #ff8f00;
+    /* Button Colours */
+    --btn-bg: #15181C;
+    --btn-bg-h: #000;
+    --btn-head-bg-h: #ff8f00;
+    --btn-text-h: #d9d9d9;
+    --btn-text-b: #212529;
+    /* Header Colours */
+    --text-head: #ff8f00;
+    --text-head-h: #FFF;
+    /* Status Colours */
+    --watching: #28A745;
+    --completed: #1B95E0;
+    --onhold: #FFC107;
+    --dropped: #DC3545;
+    --plantowatch: #d9d9d9;
+    /* Single-Use Colours */
+    --cover-bg: #090909;
+    --edit-btn: #323232;
+    --checkmark: #ff8f00;
+}
+
+.cover-block:before {
+    background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0))
+}
+
+#cover-image-container:after {
+    color: #f6f5ff;
+    text-shadow: 2px 2px 8px #e4bef4
+}
+
+.status-menu-container:after {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0))
+}
+
+#footer-block:before {
+    background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0))
+}
+
+#advanced-options #fancybox-close,
+#advanced-options .advanced-options-button a,
+#fancybox-outer #fancybox-close,
+.header .header-title,
+.header-info,
+.icon-menu,
+.list-menu-float .icon-menu,
+.list-table>tbody:first-of-type:after,
+.stats a,
+.status-menu:after {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .8)
+}
+
+#fancybox-overlay {
+    opacity: .35 !important
+}
+
+#advanced-options,
+#fancybox-outer {
+    box-shadow: 0 0 32px rgba(0, 0, 0, .75)
+}
+
+#fancybox-frame {
+    -webkit-filter: invert(87.8%) hue-rotate(197deg);
+    filter: invert(87.8%) hue-rotate(197deg)
+}
+
+#advanced-options [class*="-widget"] select {
+    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwNMtwr5Ak7vIe0nkFCd1U1Y)
+}
