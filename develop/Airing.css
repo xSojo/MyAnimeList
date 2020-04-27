@@ -3,6 +3,10 @@
     color: #FFFFFF !IMPORTANT;
     background: #28A745;
     margin-right: 5px;
-    border-radius: .25rem;
-    padding: 2px 2px 4px 3px;
+    border-radius: .25rem !important;
+    padding: 2px 2px 4px 3px !important;
+    font-size: 10px !important;
+    display: inline;
+    font-weight: 500;
+    position: relative;
 }
