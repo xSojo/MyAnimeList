@@ -1,0 +1,3 @@
+.data.tags span a[href*="\=Viendo"] {
+    display: none;
+}
