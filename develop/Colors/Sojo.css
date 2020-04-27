@@ -1,10 +1,5 @@
 :root {
-    --name: none;
-    --avatar: none;
-    --banner: url(https://i.imgur.com/VoPJz2S.jpg);
-    --character: url(https://i.imgur.com/6IPyngH.png);
-    --background: none;
-    
+
     /* Generic Colours */
     --pbg: #000;
     --bg: #202327;
@@ -28,7 +23,6 @@
     /* Header Colours */
     --text-head: #ff8f00;
     --text-head-h: #FFF;
-    
     
     /* Status Colours */
     --watching: #28A745;

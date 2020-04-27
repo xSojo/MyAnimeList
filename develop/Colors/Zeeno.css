@@ -1,0 +1,38 @@
+:root {
+    
+    /* Generic Colours */
+    --pbg: #191c25;
+    --bg: #202430;
+    --bg-dark: #444;
+    --text: #c6ddee;
+    --text-h: #63a0f2;
+    --text-dim: #63a0f2;
+    --text-dim-h: #c6ddee;
+    --text-dark: #c6ddee;
+    --shadow: rgba(0, 0, 0, 0.2);
+    --icon: #959595;
+    --accent: #63a0f2;
+    
+    /* Button Colours */
+    --btn-bg: #191c25;
+    --btn-bg-h: #c6ddee;
+    --btn-head-bg-h: #63a0f2;
+    --btn-text-h: #212121;
+    --btn-text-b: #212529;
+    
+    /* Header Colours */
+    --text-head: #63a0f2;
+    --text-head-h: #FFFFFF;
+    
+    /* Status Colours */
+    --watching: #2db039;
+    --completed: #26448f;
+    --onhold: #f9d457;
+    --dropped: #a12f31;
+    --plantowatch: #c3c3c3;
+    
+    /* Single-Use Colours */
+    --cover-bg: #090909;
+    --edit-btn: #323232;
+    --checkmark: #63a0f2;
+}
