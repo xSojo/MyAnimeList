@@ -10,3 +10,8 @@
     font-weight: 500;
     position: relative;
 }
+
+/* Rojo */
+.data.tags span a[href*="\=Viendo"] {
+    display: none;
+}
